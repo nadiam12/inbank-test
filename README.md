@@ -13,16 +13,24 @@ months and returns a decision (negative or positive), the amount and period.
 Open terminal from the base directory of inbank application
 ```
 > cd frontend 
+```
+Run the following command only one time when the project will be built for the first time.
+Can be skipped further.
+```
+> npm install
+``` 
+All static files that are necessary for a nice view will be build and copied to *backend/src/main/resources/static* folder.  
+```
 > npm run build
 ```
-All static files that are necessary for a nice view will be build and copied to *backend/src/main/resources/static* folder.  
 There is no need to launch frontend server.
 
+Let's build and start backend.
 ```
 > cd ../backend 
 > ./gradlew bootRun
 ```
 The server is up and running. Now you can open page in browser. 
-http://localhost:8080
+See http://localhost:8080
 
 
