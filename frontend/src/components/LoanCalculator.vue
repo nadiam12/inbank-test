@@ -37,9 +37,9 @@
 export default {
     data(){
         return {
-            userId: '49002010965',
-            amount: '3000',
-            period: '12',
+            userId: '',
+            amount: '',
+            period: '',
 
             showPopup: false,
             responseData: null,
